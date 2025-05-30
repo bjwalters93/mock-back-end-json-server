@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice.smith@example.com",
+      "isActive": true,
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob.j@example.com",
+      "isActive": true,
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "email": "charlie.b@example.com",
+      "isActive": false,
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "firstName": "Diana",
+      "lastName": "Prince",
+      "email": "diana.p@example.com",
+      "isActive": true,
+      "role": "editor"
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "name": "Wireless Ergonomic Mouse",
+      "category": "Electronics",
+      "price": 35.99,
+      "inStock": 150,
+      "description": "Comfortable mouse for long work sessions."
+    },
+    {
+      "id": "P002",
+      "name": "Mechanical Gaming Keyboard",
+      "category": "Electronics",
+      "price": 129.0,
+      "inStock": 75,
+      "description": "RGB backlit keyboard with tactile switches."
+    },
+    {
+      "id": "P003",
+      "name": "27-inch 4K Monitor",
+      "category": "Electronics",
+      "price": 399.99,
+      "inStock": 40,
+      "description": "Stunning clarity for work and entertainment."
+    },
+    {
+      "id": "P004",
+      "name": "Noise-Cancelling Headphones",
+      "category": "Audio",
+      "price": 199.5,
+      "inStock": 100,
+      "description": "Immersive sound with active noise cancellation."
+    },
+    {
+      "id": "P005",
+      "name": "Smart Home Hub",
+      "category": "Smart Home",
+      "price": 89.95,
+      "inStock": 60,
+      "description": "Central control for all your smart devices."
+    }
+  ],
+  "posts": [
+    {
+      "id": "post1",
+      "title": "Getting Started with React Hooks",
+      "authorId": "1",
+      "date": "2024-03-15",
+      "content": "Hooks revolutionized how we write React components...",
+      "tags": ["React", "Frontend", "JavaScript"]
+    },
+    {
+      "id": "post2",
+      "title": "Backend Development with Node.js and Express",
+      "authorId": "2",
+      "date": "2024-03-20",
+      "content": "Express.js makes building robust APIs a breeze...",
+      "tags": ["Node.js", "Backend", "API"]
+    },
+    {
+      "id": "post3",
+      "title": "Styling in Angular: A Deep Dive",
+      "authorId": "4",
+      "date": "2024-03-25",
+      "content": "From component styles to global CSS, Angular offers many options...",
+      "tags": ["Angular", "Frontend", "CSS"]
+    }
+  ],
+  "comments": [
+    {
+      "id": "C001",
+      "postId": "post1",
+      "userId": "3",
+      "date": "2024-03-16",
+      "text": "Great article, very helpful for beginners!"
+    },
+    {
+      "id": "C002",
+      "postId": "post1",
+      "userId": "1",
+      "date": "2024-03-17",
+      "text": "Thanks! Glad you found it useful."
+    },
+    {
+      "id": "C003",
+      "postId": "post2",
+      "userId": "4",
+      "date": "2024-03-21",
+      "text": "I appreciate the practical examples. Keep them coming!"
+    }
+  ]
+}
